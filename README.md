@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/VGKt0wo.png" height="50%" width="40%" alt="Microsoft Active Directory Logo"/>
+<img src="https://i.imgur.com/VGKt0wo.png" height=20%" width="20%" alt="Duo Logo"/>
 </p>
 
 <h1>Setting Up MFA and Protecting RDP Using Duo (Server 2019)</h1>
@@ -21,6 +21,7 @@ In this lab, we'll elevate our Azure Server 2019 security by integrating Multi-F
 
 <h2>Step 2: Sign Up for Duo Security and Create User</h2>
 
+<img src="https://i.imgur.com/Uxo9lj9.png" height="70%" width="70%" alt="9"/><br />
 <img src="https://i.imgur.com/3xhyySF.png" height="70%" width="70%" alt="9"/><br />
 <img src="https://i.imgur.com/zoIQ7GK.png" height="70%" width="70%" alt="9"/><br />
 <img src="https://i.imgur.com/dJAbJ0j.png" height="30%" width="30%" alt="9"/><br />
