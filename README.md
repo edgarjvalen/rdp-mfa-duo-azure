@@ -12,7 +12,7 @@ In this lab, we'll elevate our Azure Server 2019 security by integrating Multi-F
 
 - Microsoft Azure (Virtual Machine)
 - Remote Desktop
-- Cisco Duo Security: 
+- Cisco Duo Security RDP: https://duo.com/docs/rdp#first-steps
 
 <h2>Step 1: Create Azure Server 2019 VM</h2>
 
