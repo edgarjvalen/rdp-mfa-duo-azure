@@ -16,21 +16,42 @@ In this lab, we'll elevate our Azure Server 2019 security by integrating Multi-F
 
 <h2>Step 1: Create Azure Server 2019 VM</h2>
 
+Generate a virtual machine and choose the "Windows Server 2019 Datacenter" image.
+
 <img src="https://i.imgur.com/EyiJzcO.png" height="70%" width="70%" alt="9"/><br />
+
+Create a user profile with the role "Helpdesk," establish a password, and ensure that Remote Desktop Protocol (RDP) on port 3389 is selected.
+
 <img src="https://i.imgur.com/yZZk3Yt.png" height="70%" width="70%" alt="9"/><br />
 
 <h2>Step 2: Sign Up for Duo Security and Create User</h2>
 
+Register for a free trial on Duo Security (https://signup.duo.com/).
+
 <img src="https://i.imgur.com/Uxo9lj9.png" height="70%" width="70%" alt="9"/><br />
+
+Navigate to the "User" section on the left-hand side, then choose "Add User." Complete the necessary fields, and an email confirmation will be sent for login access.
+
 <img src="https://i.imgur.com/3xhyySF.png" height="70%" width="70%" alt="9"/><br />
 <img src="https://i.imgur.com/zoIQ7GK.png" height="70%" width="70%" alt="9"/><br />
+
+Launch the mobile application on your smartphone and scan the QR code. The application will guide you through the steps.
+
 <img src="https://i.imgur.com/dJAbJ0j.png" height="30%" width="30%" alt="9"/><br />
 
 <h2>Step 3: Install Duo Security on Server 2019 VM</h2>
 
+Access the Server 2019 VM and log in to the Duo Admin interface (https://admin.duosecurity.com/login?next=%2F).
+
 <img src="https://i.imgur.com/rEKkrxW.png" height="70%" width="70%" alt="9"/><br />
+
+Navigate to the left side and select "Applications," then choose "Protect an Application." Search for RDP and click on "Protect" to proceed.
+
 <img src="https://i.imgur.com/IBUmJIZ.png" height="30%" width="30%" alt="9"/><br />
 <img src="https://i.imgur.com/hjzdCIB.png" height="70%" width="70%" alt="9"/><br />
+
+On the next page, download the "Duo Authentication for Windows Login Installer" package and open the downloaded file when finished. Copy and paste the API Hostname, Integration Key, and Secret Key into the installer.
+
 <img src="https://i.imgur.com/ai8tLPh.png" height="70%" width="70%" alt="9"/><br />
 <img src="https://i.imgur.com/HQYTeRN.png" height="70%" width="70%" alt="9"/><br />
 <img src="https://i.imgur.com/LYHRkdS.png" height="70%" width="70%" alt="9"/><br />
@@ -39,7 +60,11 @@ In this lab, we'll elevate our Azure Server 2019 security by integrating Multi-F
 
 <h2>Step 4: Log In as User</h2>
 
+After the installer completes, log in to the Server 2019 VM.
+
 <img src="https://i.imgur.com/q9fbXB0.png" height="70%" width="70%" alt="9"/><br />
+
+Congratulations! The Server VM will now require Multi-Factor Authentication (MFA) each time a user logs in using Remote Desktop Protocol (RDP).
 
 <h2>Conclusion</h2>
 
